@@ -123,14 +123,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-th-c5K" userLabel="Timer View">
                                         <rect key="frame" x="0.0" y="532" width="361" height="227"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6N-FG-pxL">
-                                                <rect key="frame" x="143.66666666666666" y="95.666666666666629" width="73.666666666666657" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6N-FG-pxL">
+                                                <rect key="frame" x="0.0" y="101.66666666666663" width="361" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="ekD-kz-2No">
-                                                <rect key="frame" x="0.0" y="150.66666666666663" width="361" height="11"/>
+                                                <rect key="frame" x="0.0" y="144.66666666666663" width="361" height="11"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="qTb-qf-jXN"/>
                                                 </constraints>
@@ -142,8 +142,10 @@
                                             <constraint firstItem="Q6N-FG-pxL" firstAttribute="centerX" secondItem="nJN-th-c5K" secondAttribute="centerX" id="1CP-ro-s2z"/>
                                             <constraint firstItem="ekD-kz-2No" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="43P-9G-woV"/>
                                             <constraint firstItem="ekD-kz-2No" firstAttribute="centerX" secondItem="nJN-th-c5K" secondAttribute="centerX" id="7Ts-SB-O3p"/>
+                                            <constraint firstItem="Q6N-FG-pxL" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="957-qT-UNq"/>
                                             <constraint firstAttribute="trailing" secondItem="ekD-kz-2No" secondAttribute="trailing" id="OvS-CV-IH9"/>
                                             <constraint firstItem="Q6N-FG-pxL" firstAttribute="centerY" secondItem="nJN-th-c5K" secondAttribute="centerY" id="fag-se-OPR"/>
+                                            <constraint firstAttribute="trailing" secondItem="Q6N-FG-pxL" secondAttribute="trailing" id="rJm-Fi-qhn"/>
                                             <constraint firstItem="ekD-kz-2No" firstAttribute="top" secondItem="Q6N-FG-pxL" secondAttribute="bottom" constant="19.329999999999998" id="zMo-Go-l7q"/>
                                         </constraints>
                                     </view>
